@@ -1,0 +1,45 @@
+
+             h1 {
+               color:turquoise;
+               border: solid
+             }
+             p{
+                 color:rgb(83, 35, 83);
+                 border: dashed
+             }
+             *{
+                 color:blue;
+               border:  double
+               
+             }
+             h3{
+                 color:deeppink;
+                 border:dotted;
+             }
+             a{
+                 color:springgreen;
+                 border:groove
+             }
+            .header{
+                background-color:darksalmon;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .grid{
+                background-color: floralwhite;
+                display:flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+            .games{
+                background-color: gold;
+                justify-content: space-evenly;
+            }
+            .footer{
+                background-color: khaki;
+                display:flex;
+                justify-content: flex-end;
+            }
+            p, h3{
+              text-align: center;
+            }
